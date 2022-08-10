@@ -1,22 +1,27 @@
 .Top-Container {
-  background-color: #EAF6F6;
+  background-color: #EAF9F5;
   position: relative;
   padding-top: 50px;
 }
 
-.middle-container{
-   padding-top: 50px;
-}
+ .middle-container{
+      margin: 50px auto 150px;
+ }
 
-.bottom-container{
-  background-color: #66BFBF;
-  margin-top: 40px;
-  padding: 50px 0 20px;
+ .bottom-container{
+   background-color: #66BFBF;
+   padding: 30px 0 20px 0;
+ }
+
+.title{
+  margin: 10px auto;
 }
 
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Montserrat', serif;
+  color: ##40514E;
 }
 
 h1 {
@@ -28,38 +33,43 @@ h1 {
 }
 
 h2{
-  font-size: 2rem;
-  margin-top: 50px;
-  font-family: 'Montserrat', serif;
   color: #66BFBF;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', serif;
+  font-weight: normal;
 }
 
 a{
   color: #11999E;
   width: 30%
   margin: 30px 50px 30px 50px;
+  font-weight: bold;
+  text-decoration-line: none
+
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 h3{
   font-family: 'Montserrat', serif;
   color: #11999E ;
+  margin: 20px auto;
 }
 
 p{
   font-size: 1rem;
-  font-family: 'Montserrat', serif;
-  color: ##40514E;
   line-height: 2;
-  font-weight: bold;
 }
 
 hr{
   border: dotted;
+  border-width: 7px;
   color: #EAF6F6;
   border-bottom: none;
   width: 5%;
-  margin:  50px auto 50px auto;
+  margin:  50px auto;
 
 }
 
@@ -76,11 +86,12 @@ hr{
 .Profile-picture{
   border-radius: 50%;
   width: 200px;
+
 }
 
-.Profile{
-  width: 30%;
-  margin-left: 500px;
+.intro{
+ width: 30%;
+ margin: auto;
 }
 
 .Computer-image{
@@ -102,12 +113,6 @@ hr{
   text-align: left;
   line-height: 2;
   }
-
-  .contact-message{
-    width: 40%;
-    margin: 40px auto 40px auto;
-  }
-
 
   .btn {
   background: #11cdd4;
@@ -134,6 +139,19 @@ hr{
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.contact-message{
+  width: 25%;
+  margin: 30px auto 50px auto;
+}
+
+.footer-link{
+  margin: 0px 25px;
+}
+
+.copyright{
+  color: #ffffff;
 }
 
 /*
