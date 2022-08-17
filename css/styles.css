@@ -2,15 +2,17 @@
   background-color: #EAF9F5;
   position: relative;
   padding-top: 50px;
+  text-align: center;
 }
 
  .middle-container{
-      margin: 50px auto 150px;
+      margin: 50px auto 50px;
  }
 
  .bottom-container{
    background-color: #66BFBF;
    padding: 30px 0 20px 0;
+   text-align: center;
  }
 
 .title{
@@ -18,8 +20,6 @@
 }
 
 body {
-  margin: 0;
-  text-align: center;
   font-family: 'Montserrat', serif;
   color: ##40514E;
 }
@@ -64,13 +64,12 @@ p{
 }
 
 hr{
-  border: dotted;
-  border-width: 7px;
-  color: #EAF6F6;
-  border-bottom: none;
-  width: 5%;
-  margin:  50px auto;
 
+  border-style: dotted;
+  border-width: 5px;
+  border-bottom: none;
+  margin:  50px auto;
+  width: 5%;
 }
 
 
@@ -86,32 +85,42 @@ hr{
 .Profile-picture{
   border-radius: 50%;
   width: 200px;
+  position: relative;
+  left: 60%;
 
 }
 
 .intro{
- width: 30%;
  margin: auto;
 }
 
-.Computer-image{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-
+.support-gif{
+  width:50%;
+  border-radius: 30%;
+  margin-left: 40%;
 }
 
-.chillies{
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+.learning-gif{
+  width:40%;
+  border-radius: 30%;
+  margin-left: 10%;
 }
 
-.skill-row{
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
+.skills{
+  text-align:center;
+  margin: 30px auto;
+  }
+
+  .certification{
+    text-align: right;
+  }
+
+  .certification-logo{
+    text-align: center;
+  }
+
+  .application-support{
+  margin: 5% auto;
   }
 
   .btn {
@@ -141,9 +150,16 @@ hr{
   text-decoration: none;
 }
 
+.get-in-touch{
+  text-align: center;
+}
+
+.get-in-touch-content{
+  text-align: center;
+}
+
 .contact-message{
-  width: 25%;
-  margin: 30px auto 50px auto;
+ text-align: center;
 }
 
 .footer-link{
@@ -152,6 +168,12 @@ hr{
 
 .copyright{
   color: #ffffff;
+  margin: 50px auto 0 auto;
+}
+
+.button{
+  margin: 0 auto 5% auto;
+  text-align: center;
 }
 
 /*
@@ -160,3 +182,9 @@ hr{
   }
 
 */
+
+/* navbar */
+
+.navbar{
+  position: fixed;
+}
