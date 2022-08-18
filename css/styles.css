@@ -17,6 +17,9 @@
 
 .title{
   margin: 10px auto;
+  font-family: 'Sacramento', serif;
+  font-size: 4.62rem;
+  color: #66BFBF;
 }
 
 body {
@@ -95,15 +98,13 @@ hr{
 }
 
 .support-gif{
-  width:50%;
-  border-radius: 30%;
-  margin-left: 40%;
+  margin: auto 4%;
+  float: left;
 }
 
 .learning-gif{
-  width:40%;
-  border-radius: 30%;
-  margin-left: 10%;
+  float: right;
+  margin: auto 4%;
 }
 
 .skills{
@@ -111,17 +112,15 @@ hr{
   margin: 30px auto;
   }
 
-  .certification{
-    text-align: right;
-  }
-
-  .certification-logo{
-    text-align: center;
-  }
-
   .application-support{
-  margin: 5% auto;
+    margin: 3% auto;
   }
+
+  .learning{
+    margin: 3% auto;
+    text-align: left;
+  }
+
 
   .btn {
   background: #11cdd4;
